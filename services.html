@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Manna Brothers Furnitures</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Services Page Specific Extra Styling */
+        .services-section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .services-section h2 {
+            font-size: 36px;
+            color: #3e2723;
+            margin-bottom: 15px;
+        }
+        .services-section .subtitle {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .service-card {
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 30px 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+            border-color: #ffb300;
+        }
+        .service-card h4 {
+            color: #3e2723;
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+        .service-card p {
+            color: #666;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        /* Service Button Styles with mailto link */
+        .service-btn {
+            background-color: #3e2723;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            font-size: 14px;
+            text-transform: uppercase;
+            transition: 0.3s;
+            display: inline-block;
+        }
+        .service-btn:hover {
+            background-color: #ffb300;
+            color: #3e2723;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Manna Brothers Furnitures</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="services-section">
+            <h2>Our Premium Services</h2>
+            <p class="subtitle">Click on any service button to directly email us your inquiries or bookings!</p>
+            
+            <div class="services-grid">
+                
+                <div class="service-card">
+                    <div>
+                        <h4>1. Online Pre-Booking</h4>
+                        <p>Book your favorite furniture online before stocks run out. Lock the best prices and offers right from your home.</p>
+                    </div>
+                    <a href="mailto:your-email@gmail.com?subject=Online Pre-Booking Inquiry" class="service-btn">Book Online Now</a>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <h4>2. Safe Home Delivery</h4>
+                        <p>We provide zero-damage, fully insured home delivery services across the region. Your furniture arrives safely at your doorstep.</p>
+                    </div>
+                    <a href="mailto:your-email@gmail.com?subject=Home Delivery Inquiry" class="service-btn">Request Delivery Info</a>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <h4>3. Offline Showroom Visit</h4>
+                        <p>Want to check the wood quality in person? Schedule a visit to our grand showroom and experience the premium finish yourself.</p>
+                    </div>
+                    <a href="mailto:your-mannasumitnarayan@gmail.com?subject=Store Visit Appointment" class="service-btn">Schedule A Visit</a>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <h4>4. Custom Made Furniture</h4>
+                        <p>Have a custom design or specific size requirements? Share your design blueprints with us, and we will build it exactly your way.</p>
+                    </div>
+                    <a href="mailto:your-mannasumitnarayan@gmail.com?subject=Custom Furniture Request" class="service-btn">Send Custom Design</a>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <h4>5. Easy EMI & Financing</h4>
+                        <p>Upgrade your home without financial stress. We offer flexible, low-interest EMI facilities with leading banks and partners.</p>
+                    </div>
+                    <a href="mailto:your-mannasumitnarayan@gmail.com?subject=EMI and Finance Inquiry" class="service-btn">Apply For EMI</a>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <h4>6. Free Expert Installation</h4>
+                        <p>No hassle of fixing complex parts. Our expert carpenters will visit your home and handle the entire assembly process completely free of cost.</p>
+                    </div>
+                    <a href="mailto:your-mannasumitnarayan@gmail.com?subject=Installation Service Request" class="service-btn">Request Carpenter</a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Manna Brothers Furnitures. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

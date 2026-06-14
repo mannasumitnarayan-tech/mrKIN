@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Manna Brothers Furnitures</title>
+    
+    <!-- Linking to your existing shared style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Modern Internal CSS for Perfect Layout & Image Adjustment -->
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fafafa;
+            color: #333;
+        }
+
+        /* Header & Navigation Style */
+        header {
+            background-color: #3e2723; /* Deep Wooden Brown */
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+
+        .logo h1 {
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 25px;
+        }
+
+        nav ul li a {
+            color: #d7ccc8;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: 0.3s ease;
+        }
+
+        nav ul li a:hover, nav ul li a.active {
+            color: #ffb300; /* Warm Golden Amber */
+        }
+
+        /* Hero / Banner Section */
+        .hero {
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 100px 20px;
+            border-bottom: 4px solid #3e2723;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            color: #3e2723;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #5d4037;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #ffb300;
+            color: #3e2723;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            text-transform: uppercase;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #3e2723;
+            color: white;
+        }
+
+        /* Gallery / Product Section */
+        .gallery-section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .gallery-section h3 {
+            font-size: 32px;
+            color: #3e2723;
+            margin-bottom: 40px;
+        }
+
+        /* Product Grid Layout */
+        .furniture-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .furniture-card {
+            background: white;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: 0.3s ease;
+        }
+
+        .furniture-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
+
+        /* 100% Perfect Image Auto-Adjustment Code */
+        .furniture-card img {
+            width: 100% !important;
+            height: 220px !important;
+            object-fit: cover !important; /* This ensures images never stretch or break */
+            border-radius: 6px;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .furniture-card h4 {
+            color: #3e2723;
+            margin-bottom: 8px;
+            font-size: 20px;
+        }
+
+        .furniture-card p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        /* Footer Style */
+        footer {
+            background-color: #1a1a1a;
+            color: #888;
+            text-align: center;
+            padding: 25px;
+            font-size: 14px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header and Navigation Section -->
+    <header>
+        <div class="logo">
+            <h1>Manna Brothers Furnitures</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="all.html">All Products</a></li> <!-- Added link to All Products page -->
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Hero/Banner Section -->
+        <section class="hero">
+            <h2>Premium Furniture for Your Dream Home</h2>
+            <p>Exclusive wooden furniture crafted with modern designs and durability.</p>
+            <!-- Changed href from services.html to all.html -->
+            <a href="all.html" class="btn">View All Products</a> 
+        </section>
+
+        <!-- Furniture Gallery Section -->
+        <section class="gallery-section">
+            <h3>Our Featured Collections</h3>
+            
+            <div class="furniture-grid">
+                
+                <!-- Product 1: Sofa Set -->
+                <div class="furniture-card">
+                    <img src="https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/original/UdzkGQKUDl-a.jpg" alt="Royal Sofa Set">
+                    <h4>Royal Sofa Set</h4>
+                    <p>Comfortable and elegant sofa set to elevate your living room.</p>
+                </div>
+
+                <!-- Product 2: Wooden Bed -->
+                <div class="furniture-card">
+                    <img src="https://buildhub.in/storage/bedroom-sets/2-bh-modern-bedroom-set-with-bed-3-door-wardrobe-side-table-and-dressing-table.jpg" alt="Premium Wooden Bed">
+                    <h4>Premium Teak Wood Bed</h4>
+                    <p>Strong, durable, and beautifully crafted for a perfect sleep.</p>
+                </div>
+
+                <!-- Product 3: Dining Table -->
+                <div class="furniture-card">
+                    <img src="https://handicraftstown.com/cdn/shop/files/Stainlesssteeldesignerdiningtablewithchairs_...jpg?v=1737454788" alt="Modern Dining Table">
+                    <h4>Modern Dining Table</h4>
+                    <p>Perfect luxury dining set for memorable family meals.</p>
+                </div>
+
+                <!-- Product 4: Wardrobe -->
+                <div class="furniture-card">
+                    <img src="https://buildhub.in/storage/bedroom-sets/2-bh-modern-bedroom-set-with-bed-3-door-wardrobe-side-table-and-dressing-table.jpg" alt="Designer Wardrobe">
+                    <h4>Designer Wardrobe</h4>
+                    <p>Spacious and modern wardrobe solution for your clothes.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Manna Brothers Furnitures. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
